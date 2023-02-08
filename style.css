@@ -1,0 +1,102 @@
+
+*{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main{
+    align-items: center;
+    background-color: white;
+    border-radius: 9px;
+    top:50%;
+    left:50%;
+    width:700px;
+    height: 462px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.join{
+    align-items: left;
+    padding-left: 5%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+.monthly{
+    background-color: rgba(43,179,177,255);
+    float:left;
+    width: 50%;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mtext{
+    margin-top: -30px;
+}
+button{
+    background-color: rgba(191,223,50,255);
+    border-radius: 9px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px 110px;
+    border: 0;
+    outline: 0;
+}
+.why{
+    float:right;
+    width: 50%;
+    height:265px;
+    background-color: rgba(74,190,189,255);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wtext{
+    margin-top: 8px;
+    margin-left: 9%;
+    margin-right: 100px;
+}
+.decfont{
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.blue{
+    color: rgba(82,177,176,255);
+    font-weight: 700;
+    font-size: 20px;
+}
+.yellow{
+    color: rgba(206,223,120,255);
+    font-weight: 700;
+}
+.grey{
+    color:rgba(185,188,196,255);
+    line-height: 20px;
+}
+.inc{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: -100px;
+}
+.head{
+    font-weight:600;
+}
+.head2{
+    font-weight: 600;
+}
+.pm{
+    font-weight: 100;
+    display:inline-block;
+    margin-bottom: -10px;
+}
